@@ -1,0 +1,27 @@
+# .gitignore for .NET + Windows
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.log
+*.ps1
+*.pfx
+*.publishsettings
+.vscode/
+*.DS_Store
+Thumbs.db
+# Windows
+AppData/
+NTUSER.DAT*
+ntuser.ini
+# Jupyter / python stuff
+.ipynb_checkpoints/
+*.ipynb
+# Docker
+docker-compose*.yml
+# Testcontainers default (no need to commit)
+.testcontainers/
